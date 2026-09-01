@@ -1,16 +1,13 @@
-# React + Vite
+https://chatgpt.com/share/6a96d29a-d474-83e9-b880-2ac42b0ecc47
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para este trabajo desarrollamos una aplicación web de Pokémon usando React. La aplicación permite ver información obtenida desde una API, buscar Pokémon y guardarlos como favoritos.
 
-Currently, two official plugins are available:
+Usamos PokéAPI porque es gratuita, no necesita autenticación y tiene datos como nombre, imagen, tipo, altura y peso. Para hacer las consultas usamos Axios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Organizamos el proyecto en distintos componentes y páginas para que el código sea más claro. También usamos useState para guardar los datos, el buscador, los favoritos, la carga y los errores. Con useEffect hacemos la consulta a la API cuando inicia la aplicación.
 
-## React Compiler
+Para mostrar los Pokémon usamos .map() y para buscarlos usamos .filter(). Los favoritos se guardan en localStorage, por lo que siguen apareciendo aunque se recargue la página.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La inteligencia artificial nos ayudó a organizar el proyecto, crear una primera versión del código y entender algunas partes. Después fuimos revisando y adaptando el código para que fuera más simple y fácil de explicar.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este trabajo nos ayudó a practicar React, componentes, props, estados, rutas, consumo de APIs y almacenamiento local.
